@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SmartLib - Search Books</title>
+</head>
+
+<body>
+
+    <h1>SMARTLIB</h1>
+    <h2>Search Books</h2>
+
+    <hr>
+
+    <!-- Search Section -->
+    <h2>🔍 Find a Book</h2>
+
+    <p>Search for a book by its name, author, or book ID.</p>
+
+    <form>
+
+        <label for="search">Search Book:</label>
+
+        <input type="text"
+               id="search"
+               name="search"
+               placeholder="Enter book name, author or ID">
+
+        <button type="submit">Search</button>
+
+    </form>
+
+    <hr>
+
+    <!-- Book Categories -->
+    <h2>📚 Book Categories</h2>
+
+    <ul>
+        <li>Mathematics</li>
+        <li>Chemistry</li>
+        <li>BEEE</li>
+        <li>Engineering Drawing</li>
+        <li>Communication</li>
+    </ul>
+
+    <hr>
+
+    <!-- Available Books -->
+    <h2>Available Books</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Book ID</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        <!-- Mathematics -->
+        <tr>
+            <td>B101</td>
+            <td>Engineering Mathematics</td>
+            <td> DK.Jain</td>
+            <td>Mathematics</td>
+            <td>Available</td>
+            <td>
+                <button>Request Book</button>
+            </td>
+        </tr>
+
+        <!-- Chemistry -->
+        <tr>
+            <td>B102</td>
+            <td>Engineering Chemistry</td>
+            <td>Jain & Jain</td>
+            <td>Chemistry</td>
+            <td>Available</td>
+            <td>
+                <button>Request Book</button>
+            </td>
+        </tr>
+
+        <!-- BEEE -->
+        <tr>
+            <td>B103</td>
+            <td>Basic Electrical and Electronics Engineering</td>
+            <td>Mini Doaremon </td>
+            <td>BEEE</td>
+            <td>Issued</td>
+            <td>
+                <button disabled>Not Available</button>
+            </td>
+        </tr>
+
+        <!-- Engineering Drawing -->
+        <tr>
+            <td>B104</td>
+            <td>Engineering Drawing</td>
+            <td>Agrawal And Agrawal</td>
+            <td>Engineering Drawing</td>
+            <td>Available</td>
+            <td>
+                <button>Request Book</button>
+            </td>
+        </tr>
+
+        <!-- Communication -->
+        <tr>
+            <td>B105</td>
+            <td>Communication Skills</td>
+            <td>Sanjoy Kumar</td>
+            <td>Communication</td>
+            <td>Available</td>
+            <td>
+                <button>Request Book</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- Book Information -->
+    <h2>📖 How to Get a Book</h2>
+
+    <ol>
+        <li>Search for the required book.</li>
+        <li>Check the availability.</li>
+        <li>Click on Request Book.</li>
+        <li>Visit the RFID self-checkout section.</li>
+        <li>Scan your student RFID card and book.</li>
+    </ol>
+
+    <hr>
+
+    <p>
+        <b>SmartLib</b> - Smart Library Management System
+    </p>
+
+</body>
+
+</html>
